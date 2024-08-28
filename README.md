@@ -57,7 +57,10 @@
 
 3. Download sample graph data:
 
-   Sample data can be found in the `graphstorm/data/sample_graph_data` directory. You can add more datasets as needed.
+   Sample data can be found in the `graphstorm/data/sample_graph_data` directory. You can add more datasets as needed. 
+See the [data/README.md](data/README.md) for more information.
+
+  
 
 ## Usage
 
