@@ -1,4 +1,4 @@
-# Data Data Set
+# Sample Data Sets
 
 ### **1. SNAP (Stanford Large Network Dataset Collection)**
 SNAP provides a variety of real-world graph datasets, including social networks, web graphs, and collaboration networks.

@@ -12,5 +12,11 @@ def load_graph_from_file(file_path: str, file_format: str = 'edgelist') -> nx.Gr
     Returns:
         networkx.Graph: The loaded graph object.
     """
-    # Placeholder for graph loading logic
-    pass
+    if file_format == 'edgelist':
+        graph = nx.read_edgelist(file_path, nodetype=int, data=(('weight', float),))
+    elif file_format == 'adjlist':
+        graph = nx.read_adjlist(file_path, nodetype=int)
+    else:
+        raise ValueError(f"Unsupported file format: {file_format}")
+
+    return graph

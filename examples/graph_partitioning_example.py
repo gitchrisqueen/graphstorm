@@ -3,11 +3,17 @@
 from src.graph_partitioning.partitioner import partition_graph
 from src.utils.graph_loader import load_graph_from_file
 
-# Load the graph
-graph = load_graph_from_file('data/sample_graph_data/graph.edgelist')
+def start_example():
 
-# Partition the graph
-subgraphs = partition_graph(graph, num_partitions=4, method='metis')
+    # Load the graph
+    graph = load_graph_from_file('data/sample_graph_data/graph.edgelist')
 
-# Print the number of subgraphs
-print(f"Number of partitions created: {len(subgraphs)}")
+    # Partition the graph
+    subgraphs = partition_graph(graph, num_partitions=4, method='metis')
+
+    # Print the number of subgraphs
+    print(f"Number of partitions created: {len(subgraphs)}")
+
+
+if __name__ == '__main__':
+    start_example()
