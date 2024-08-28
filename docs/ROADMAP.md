@@ -1,9 +1,3 @@
-### **Drafting the `ROADMAP.md`**
-
-Let’s start with a high-level roadmap that outlines the key milestones and phases of the **GraphStorm** project. This document will help guide the development process and provide clear objectives for each stage.
-
----
-
 # GraphStorm Roadmap
 
 This document outlines the development roadmap for the **GraphStorm** project, detailing the major milestones and features to be implemented. The roadmap is divided into phases, each with specific objectives and deliverables.
